@@ -36,8 +36,44 @@ color: #474747;}
    height: 65px;
    width: 150px;
    align-items: center;
-   padding: ;
+   padding: 
    font-weight: bold;
    font-size: 20px;
    color: white;
+
+}
+#banner{
+    margin: 47px 38px 0 230px;
+    /* border: solid 1px #FD6E0A; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner-image {
+    
+}
+#banner .banner-content h2{width: 177px;
+                            height: 61px;
+                            font-size: 45px;
+                            font-weight: 600;
+                            color: #474747;
+                            margin-bottom: 5px;
+}
+#banner .banner-content h1{
+                            font-size: 85px;
+                            font-weight: bold;
+                            color: #181818;
+                            margin-bottom: 20px;
+}
+#banner .banner-content p{ font-size: 18px;
+    color:#757575;
+    line height: 30px;
+
+}
+#banner .banner-content {
+    max-width: 585px;
+}
+div .btn{
+    margin-top: 20px;
+    cursor: pointer;
 }
